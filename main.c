@@ -1,3 +1,4 @@
+//Jacob Noethiger jln5438@psu.edu
 #include <stdio.h>
 #include <readline/readline.h>
 #include <stdlib.h>
@@ -14,5 +15,5 @@ else{
 int main(void) {
   int n=atoi(readline("Enter an int: "));
   int total=digit_sum(n);
-  printf("sum of digits of %d is %d.",n,total);
+  printf("sum of digits of %d is %d.\n",n,total);
 }
